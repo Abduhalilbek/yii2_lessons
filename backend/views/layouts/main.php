@@ -24,7 +24,7 @@ DashboardAsset::register($this);
     ]); ?>
          <header class="main-header" >
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a href="#" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
           <span class="logo-mini"><b>D</b>LT</span>
           <!-- logo for regular state and mobile devices -->
@@ -218,6 +218,37 @@ DashboardAsset::register($this);
           <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
             <li class="active treeview">
+            	<?= Html::a('<i class="fa fa-dashboard"></i><span>Dashboard</span>', Yii::$app->homeUrl, ['class' => '']) ?>
+            </li>
+            <li>
+            	<?= Html::a('<i class="fa fa-th"></i><span>Company</span>', Yii::$app->homeUrl."companies", ['class' => '']) ?>
+            </li>
+            <li>
+            	<?= Html::a('<i class="fa fa-th"></i><span>Branches</span>', Yii::$app->homeUrl."branches", ['class' => '']) ?>
+            </li>
+            <li>
+            	<?= Html::a('<i class="fa fa-th"></i><span>Departments</span>', Yii::$app->homeUrl."departments", ['class' => '']) ?>
+            </li>
+            <li>
+            	<?= Html::a('<i class="fa fa-th"></i><span>Locations</span>', Yii::$app->homeUrl."locations", ['class' => '']) ?>
+            </li>
+            <li>
+            	<?= Html::a('<i class="fa fa-th"></i><span>Event</span>', Yii::$app->homeUrl."event", ['class' => '']) ?>
+            </li>
+            <li>
+            	<?= Html::a('<i class="fa fa-th"></i><span>PO</span>', Yii::$app->homeUrl."po", ['class' => '']) ?>
+            </li>
+            <li>
+            	<?= Html::a('<i class="fa fa-th"></i><span>PoItem</span>', Yii::$app->homeUrl."PoItem", ['class' => '']) ?>
+            </li>
+            <li>
+            	<?= Html::a('<i class="fa fa-th"></i><span>Customers</span>', Yii::$app->homeUrl."customers", ['class' => '']) ?>
+            </li>
+            
+            <li>
+            	<?= Html::a('<i class="fa fa-th"></i><span>Emails</span>', Yii::$app->homeUrl."emails", ['class' => '']) ?>
+            </li>
+            <!-- <li class="active treeview">
               <a href="#">
                 <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>
               </a>
@@ -256,7 +287,7 @@ DashboardAsset::register($this);
                 <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> Flot</a></li>
                 <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> Inline charts</a></li>
               </ul>
-            </li>
+            </li>-->
             </ul>
             <?php
                 if(isset($this->blocks['advertisement'])){
