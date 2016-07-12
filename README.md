@@ -12,3 +12,5 @@ Step 4 : Run below command <br>
          <b>C:\xampp\htdocs\yii2_lessons-master>init</b> or goto your project directory and run init command<br>
          Select environment mode 0 for Development or 1 for Production<br>
          Type yes that's it
+         
+Learn yii2 using our youtube channel <a href="https://www.youtube.com/watch?v=z1xtFbO9jgQ&list=PLRd0zhQj3CBmusDbBzFgg3H20VxLx2mkF&index=1" target="_blank">DoingITeasyChannel</a>
